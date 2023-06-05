@@ -1,0 +1,303 @@
+
+@media (max-width: 575.98px){    /* For small potrait */
+    /* nav part start */
+    .nav-icon {
+        border-left: 2px solid transparent;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .nav-icon a {
+        margin-right: 40px;
+        font-size: 20px;
+        border: 1px solid #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        padding: 5px 0 0 8px;
+    }
+    .nav-icon a:hover {
+        background-color: #27afce;
+        color: #fff !important;
+        border: 2px solid transparent;
+    }
+    /* nav part end */
+
+
+    /* banner part start */
+    #banner {
+        padding: 100px 0;
+    }
+    /* banner part end */
+
+
+    /* photograph part start */
+    .photograph-img-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .photograph-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .photograph-text-main h4::after {
+        width: 0;
+    }
+    .photograph-text-main h4::before {
+        width: 0;
+    }
+    /* photograph part end */
+
+
+    /* instagram part start */
+    .intagram-img-main {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .instagram-items {
+        width: calc(50% - 10px);
+        margin-bottom: 30px;
+    }
+    .instagram-short-head h2::after {
+        width: 0px;
+    }
+    .instagram-short-head h2::before {
+        width: 0px;
+    }
+    /* photograph part end */
+
+
+    /* journal part start */
+    .journal-main {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .journal-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .journal-head h2::after {
+        width: 0;
+    }
+    .journal-head h2::before {
+        width: 0;
+    }
+    /* journal part end */
+
+
+    /* details part start */
+    .details-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .details-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .details-items h4::after {
+        width: 0;
+    }
+    /* details part end */
+
+
+    /* footer part start */
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    /* footer part end */
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){    /* For small landscape */
+    .nav-icon {
+        border-left: 2px solid transparent;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .nav-icon a {
+        margin-right: 40px;
+        font-size: 20px;
+        border: 1px solid #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        padding: 5px 0 0 8px;
+    }
+    .nav-icon a:hover {
+        background-color: #27afce;
+        color: #fff !important;
+        border: 2px solid transparent;
+    }
+
+    #banner {
+        padding: 100px 0;
+    }
+
+    .photograph-img-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .photograph-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .photograph-text-main h4::after {
+        width: 0;
+    }
+    .photograph-text-main h4::before {
+        width: 0;
+    }
+
+    .intagram-img-main {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .instagram-items {
+        width: calc(50% - 10px);
+        margin-bottom: 30px;
+    }
+    .instagram-short-head h2::after {
+        width: 0px;
+    }
+    .instagram-short-head h2::before {
+        width: 0px;
+    }
+
+    .journal-main {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .journal-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .journal-head h2::after {
+        width: 0;
+    }
+    .journal-head h2::before {
+        width: 0;
+    }
+
+    .details-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .details-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .footer-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){    /* For mediam tablet */
+    .nav-icon {
+        border-left: 2px solid transparent;
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .nav-icon a {
+        margin-right: 40px;
+        font-size: 20px;
+        border: 1px solid #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        padding: 5px 0 0 8px;
+    }
+    .nav-icon a:hover {
+        background-color: #27afce;
+        color: #fff !important;
+        border: 2px solid transparent;
+    }
+
+    #banner {
+        padding: 100px 0;
+    }
+
+    .journal-main {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .journal-items {
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+    .j-center {
+        margin: 0 auto;
+    }
+
+
+    .details-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .details-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .details-text {
+        padding-top: 50px;
+    }
+
+
+    .footer-main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-items {
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
+
+@media (min-width: 1400px){
+    
+}
